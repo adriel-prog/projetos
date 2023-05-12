@@ -1,0 +1,28 @@
+Nome: adriel
+Idade: 18
+Sexo: m
+Peso: 85.0 kg
+Altura: 1.7 m
+IMC: 29.4
+
+Nome: janderson
+Idade: 27
+Sexo: m
+Peso: 60.0 kg
+Altura: 1.67 m
+IMC: 21.5
+
+Nome: adiel
+Idade: 18
+Sexo: m
+Peso: 80.0 kg
+Altura: 1.78 m
+IMC: 25.2
+Nome: adriel
+Idade: 18
+Sexo: m
+Peso: 89.0 kg
+Altura: 1.79 m
+IMC: 27.8
+Categoria: Sobrepeso.
+
