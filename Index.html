@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inserção de Dados</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: grid;
+      grid-gap: 10px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Inserção de Dados</h1>
+  
+    <form action="inserir_dados.php" method="POST">
+      <h2>Dados do Produto</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" required>
+
+      <label for="descricao">Descrição:</label>
+      <input type="text" name="descricao" required>
+
+      <label for="preco">Preço:</label>
+      <input type="number" name="preco" step="0.01" required>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" name="quantidade" required>
+
+      <h2>Dados da Categoria</h2>
+      <label for="categoria">Categoria:</label>
+      <input type="text" name="categoria" required>
+
+      <label for="descricao_categoria">Descrição:</label>
+      <input type="text" name="descricao_categoria" required>
+
+      <h2>Dados da Marca</h2>
+      <label for="marca">Marca:</label>
+      <input type="text" name="marca" required>
+
+      <label for="descricao_marca">Descrição:</label>
+      <input type="text" name="descricao_marca" required>
+
+      <h2>Dados do Fornecedor</h2>
+      <label for="fornecedor">Fornecedor:</label>
+      <input type="text" name="fornecedor" required>
+
+      <label for="endereco_fornecedor">Endereço:</label>
+      <input type="text" name="endereco_fornecedor" required>
+
+      <label for="telefone_fornecedor">Telefone:</label>
+      <input type="text" name="telefone_fornecedor" required>
+
+      <h2>Dados do Funcionário</h2>
+      <label for="funcionario">Funcionário:</label>
+      <input type="text" name="funcionario" required>
+
+      <button type="submit">Inserir Dados</button>
+    </form>
+  </div>
+</body>
+</html>
